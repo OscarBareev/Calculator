@@ -19,4 +19,10 @@
     <string name="zero">0</string>
     <string name="result">=</string>
     <string name="dot">.</string>
+    <string name="B">Б</string>
+    <string name="A">А</string>
+    <string name="R">Р</string>
+    <string name="E">Е</string>
+    <string name="V">В</string>
+
 </resources>
