@@ -18,21 +18,31 @@
             android:id="@+id/resultField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="end"
-            android:padding="8dp"
+            android:gravity="right"
+            android:paddingBottom="2dp"
             android:text="0"
             android:textColor="#ffffff"
-            android:textSize="68sp" />
+            android:textSize="60sp" />
 
     </LinearLayout>
 
+
     <LinearLayout
-        android:id="@+id/firstLine"
+        android:id="@+id/secondLine"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#cacbcf"
+            android:text="@string/sin"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/cBtn"
@@ -43,45 +53,6 @@
             android:background="#cacbcf"
             android:text="@string/c"
             android:textSize="24sp" />
-
-        <Button
-            android:id="@+id/plusMinusBtn"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="1dp"
-            android:layout_weight="1"
-            android:background="#cacbcf"
-            android:text="@string/plusMinus"
-            android:textSize="24sp" />
-
-        <Button
-            android:id="@+id/percentBtn"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="1dp"
-            android:layout_weight="1"
-            android:background="#cacbcf"
-            android:text="@string/percent"
-            android:textSize="24sp" />
-
-        <Button
-            android:id="@+id/divideBtn"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="1dp"
-            android:layout_weight="1"
-            android:background="#f57808"
-            android:text="@string/divide"
-            android:textColor="#ffffff"
-            android:textSize="24sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/secondLine"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
 
         <Button
             android:id="@+id/sevenBtn"
@@ -131,6 +102,27 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#cacbcf"
+            android:text="@string/cos"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/plusMinusBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#cacbcf"
+            android:text="@string/plusMinus"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/fourBtn"
@@ -183,6 +175,27 @@
         android:textSize="24sp">
 
         <Button
+            android:id="@+id/tan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#cacbcf"
+            android:text="@string/tan"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/percentBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#cacbcf"
+            android:text="@string/percent"
+            android:textSize="24sp" />
+
+        <Button
             android:id="@+id/oneBtn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -233,6 +246,16 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/log"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#cacbcf"
+            android:text="@string/log"
+            android:textSize="24sp" />
+
+        <Button
             android:id="@+id/zeroBtn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -246,21 +269,32 @@
             android:id="@+id/dotBtn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="2dp"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:background="#cacbcf"
             android:text="@string/dot"
             android:textSize="24sp" />
 
+
         <Button
             android:id="@+id/resultBtn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="2dp"
-            android:layout_marginEnd="1dp"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:background="#f57808"
             android:text="@string/result"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/divideBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#f57808"
+            android:text="@string/divide"
             android:textColor="#ffffff"
             android:textSize="24sp" />
     </LinearLayout>

@@ -24,5 +24,9 @@
     <string name="R">Р</string>
     <string name="E">Е</string>
     <string name="V">В</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="log">log</string>
 
 </resources>
